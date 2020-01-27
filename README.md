@@ -7,7 +7,7 @@
 
 ### Installation
 ```
-pip install git+git://github.com/Adawg4/lazy-aidan.git
+git clone git@github.com:Adawg4/lazy-aidan.git
 ```
 ### Create a burner gmail account: 
 Go to this and fill out the details.
@@ -17,9 +17,9 @@ https://accounts.google.com/SignUp
 Go to Google's Account Security Settings: www.google.com/settings/security
 Find the field "Access for less secure apps". Set it to "Allowed".
 
-### Import lazy-aidan
+### Import lazy-aidan (Take the py file out of the folder and throw it in your dir)
 ```
-
+from lazy_aidan import Aidan
 ```
 ### Add this before the send function (preferably at the top) and initialize with your info
 ```
