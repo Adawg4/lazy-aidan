@@ -20,7 +20,7 @@ varname = Aidan(email="sender gmail adress", pwd="your password", to="to email/s
 
 ### Add this with a message with relevant info from your code
 ```
-varname.send(msg="New message here")
+varname.send(msg="Code did xyz")
 ```
 
 ### Carrier list: (Paste the exact string into the the carrier="" in the Aidan() class)
