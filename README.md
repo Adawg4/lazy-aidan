@@ -5,6 +5,10 @@
 
 ##  How to use:
 
+### Installation
+```
+pip install git+git://github.com/Adawg4/lazy-aidan.git
+```
 ### Create a burner gmail account: 
 Go to this and fill out the details.
 https://accounts.google.com/SignUp
@@ -13,6 +17,10 @@ https://accounts.google.com/SignUp
 Go to Google's Account Security Settings: www.google.com/settings/security
 Find the field "Access for less secure apps". Set it to "Allowed".
 
+### Import lazy-aidan
+```
+
+```
 ### Add this before the send function (preferably at the top) and initialize with your info
 ```
 varname = Aidan(email="sender gmail adress", pwd="your password", to="to email/sms number", carrier="choose from the carrier list below")
