@@ -14,10 +14,14 @@ Go to Google's Account Security Settings: www.google.com/settings/security
 Find the field "Access for less secure apps". Set it to "Allowed".
 
 ### Add this before the send function (preferably at the top) and initialize with your info
-```varname = Aidan(email="sender gmail adress", pwd="your password", to="to email/sms number", carrier="choose from the carrier list below")```
+```
+varname = Aidan(email="sender gmail adress", pwd="your password", to="to email/sms number", carrier="choose from the carrier list below")
+```
 
 ### Add this with a message with relevant info from your code
-```varname.send(msg="New message here")```
+```
+varname.send(msg="New message here")
+```
 
 ### Carrier list: (Paste the exact string into the the carrier="" in the Aidan() class)
 * All Tell
