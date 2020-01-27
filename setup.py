@@ -10,8 +10,8 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='lazy-aidan',
     version='0.0.1',
-    packages=['aidan'],
-    include_package_data=True,
+    packages=setuptools.find_packages(),
+    python_requires='>=3.6',
     license='MIT License',
     description='An easy sms/email notifier that lets you send yourself updates on how your code is doing.',
     long_description=README,
