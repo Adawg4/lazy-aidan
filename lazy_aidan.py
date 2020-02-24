@@ -28,3 +28,4 @@ class Aidan:
 		server.starttls()
 		server.login(self.email,self.pwd)
 		server.sendmail(self.email, self.to,msg)
+		server.quit()
